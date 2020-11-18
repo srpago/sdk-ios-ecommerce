@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SrPago-Ecommerce'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of SrPago-Ecommerce.'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/LFBR-SrPago/SrPago-ecommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SrPago-Ecommerce/Classes/**/*'
+  #s.source_files = 'SrPago-Ecommerce/Classes/**/*'
   s.swift_versions = '4.2'
   s.vendored_frameworks = 'SrPago-Ecommerce/Framework/SrPago.framework'
   s.frameworks = 'SrPago'
@@ -42,6 +42,8 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'SrPago-Ecommerce' => ['SrPago-Ecommerce/Assets/*.png']
   # }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
