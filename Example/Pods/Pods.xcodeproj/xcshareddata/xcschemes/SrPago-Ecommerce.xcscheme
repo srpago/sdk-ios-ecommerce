@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DC884CC21F8D9D0CCB7F9D05039AA614"
-               BuildableName = "SrPago_Ecommerce.framework"
+               BuildableName = "SrPago-Ecommerce"
                BlueprintName = "SrPago-Ecommerce"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DC884CC21F8D9D0CCB7F9D05039AA614"
-            BuildableName = "SrPago_Ecommerce.framework"
+            BuildableName = "SrPago-Ecommerce"
             BlueprintName = "SrPago-Ecommerce"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

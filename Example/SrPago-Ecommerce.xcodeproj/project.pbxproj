@@ -290,12 +290,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests-frameworks.sh",
 				"${PODS_ROOT}/../../SrPago-Ecommerce/Framework/SrPago.framework",
-				"${BUILT_PRODUCTS_DIR}/SrPago-Ecommerce/SrPago_Ecommerce.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SrPago.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SrPago_Ecommerce.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,12 +330,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SrPago-Ecommerce_Example/Pods-SrPago-Ecommerce_Example-frameworks.sh",
 				"${PODS_ROOT}/../../SrPago-Ecommerce/Framework/SrPago.framework",
-				"${BUILT_PRODUCTS_DIR}/SrPago-Ecommerce/SrPago_Ecommerce.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SrPago.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SrPago_Ecommerce.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

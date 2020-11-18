@@ -198,11 +198,9 @@ fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../../SrPago-Ecommerce/Framework/SrPago.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SrPago-Ecommerce/SrPago_Ecommerce.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../../SrPago-Ecommerce/Framework/SrPago.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SrPago-Ecommerce/SrPago_Ecommerce.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
