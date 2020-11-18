@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.homepage         = 'https://senorpago.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rhernandez@srpago.com' => 'fbustosr@srpago.com' }
+  s.author           = { 'Fernando Bustos' => 'fbustosr@srpago.com' }
   s.source           = { :git => 'https://github.com/LFBR-SrPago/SrPago-ecommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
