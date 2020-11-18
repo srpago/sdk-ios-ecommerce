@@ -10,6 +10,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first. In there you can find a little demo of how validate a card and get a token for this card
 
+![dasdasd](https://github.com/LFBR-SrPago/SrPago-ecommerce/blob/main/Example/SrPago-Ecommerce/home.png?raw=true)
+
 ## Requirements
 
 Before you start a development you must register on our platform to obtain the specific credentials for your project. You can review any questions [here](https://devcenter.srpago.com/docs/librerias/como-empezar/registro-de-una-aplicacion/)
