@@ -35,6 +35,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SrPago-Ecommerce/Classes/**/*'
   s.swift_versions = '4.2'
+  s.vendored_frameworks = 'SrPago-Ecommerce/Framework/SrPago.framework'
+  s.frameworks = 'SrPago'
   #s.frameworks = 'SrPago'
   
   # s.resource_bundles = {
