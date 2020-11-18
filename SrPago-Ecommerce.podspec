@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SrPago-Ecommerce'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Framework to get a SrPago token from any card.'
 
 # This description is used to generate tags and improve search results.
@@ -20,9 +20,6 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-  s.name             = "SrPago-Ecommerce"
-  s.version          = "1.0.1"
-  s.summary          = "A SrPago SDK to ecommerce"
   s.homepage         = 'https://github.com/LFBR-SrPago/SrPago-ecommerce'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.homepage         = 'https://senorpago.com'

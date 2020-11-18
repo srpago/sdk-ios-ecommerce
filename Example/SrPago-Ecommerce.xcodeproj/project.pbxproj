@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		6B72B2FD25648A9D00BB9057 /* Pods_SrPago_Ecommerce_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246A18C9674605CFE22D705 /* Pods_SrPago_Ecommerce_Example.framework */; };
+		6B72B5292565253700BB9057 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B72B5282565253700BB9057 /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6246A18C9674605CFE22D705 /* Pods_SrPago_Ecommerce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SrPago_Ecommerce_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A54D99A026A3E212911FC82 /* Pods-SrPago-Ecommerce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Example.release.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Example/Pods-SrPago-Ecommerce_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6B72B5282565253700BB9057 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		737BE3554920F91BC4928C22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B73DD14BEE2C7836B79D3FEC /* SrPago-Ecommerce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SrPago-Ecommerce.podspec"; path = "../SrPago-Ecommerce.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DFEDE08547402D79D21EC380 /* Pods-SrPago-Ecommerce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		607FACD21AFB9204008FA782 /* Example for SrPago-Ecommerce */ = {
 			isa = PBXGroup;
 			children = (
+				6B72B5272565252200BB9057 /* Resources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				5CA90E39DEA7BA0A772D2440 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6B72B5272565252200BB9057 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B72B5282565253700BB9057 /* home.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		DF89455B9782C33AEAEE5EAB /* Frameworks */ = {
@@ -198,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B72B5292565253700BB9057 /* home.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
