@@ -20,17 +20,22 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/rhernandez@srpago.com/SrPago-Ecommerce'
+  s.name             = "SrPago-Ecommerce"
+  s.version          = "1.0.0"
+  s.summary          = "A SrPago SDK to ecommerce"
+  s.homepage         = 'https://github.com/LFBR-SrPago/SrPago-ecommerce'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://senorpago.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rhernandez@srpago.com' => 'fbustosr@srpago.com' }
-  s.source           = { :git => 'https://github.com/rhernandez@srpago.com/SrPago-Ecommerce.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LFBR-SrPago/SrPago-ecommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SrPago-Ecommerce/Classes/**/*'
+  s.swift_versions = '4.2'
+  #s.frameworks = 'SrPago'
   
   # s.resource_bundles = {
   #   'SrPago-Ecommerce' => ['SrPago-Ecommerce/Assets/*.png']

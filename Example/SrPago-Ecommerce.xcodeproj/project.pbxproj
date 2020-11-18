@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		323A2DF6C7A6DBA1C447CB9D /* Pods_SrPago_Ecommerce_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246A18C9674605CFE22D705 /* Pods_SrPago_Ecommerce_Example.framework */; };
+		513A0968FDC3238669D71261 /* Pods_SrPago_Ecommerce_Example_SrPago_Ecommerce_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41079166A55C8A18A6CCB1BB /* Pods_SrPago_Ecommerce_Example_SrPago_Ecommerce_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6D102C83CBC94ED04CB789AD /* Pods_SrPago_Ecommerce_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08ACAEF2A7A1F12AA61C2D4D /* Pods_SrPago_Ecommerce_Tests.framework */; };
+		6B72B2FD25648A9D00BB9057 /* Pods_SrPago_Ecommerce_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6246A18C9674605CFE22D705 /* Pods_SrPago_Ecommerce_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		070816E1AB84C71B0C2F0C97 /* Pods-SrPago-Ecommerce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Tests.release.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		08ACAEF2A7A1F12AA61C2D4D /* Pods_SrPago_Ecommerce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SrPago_Ecommerce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADD664B0918D702EC571C8E /* Pods-SrPago-Ecommerce_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Example.debug.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Example/Pods-SrPago-Ecommerce_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5CA90E39DEA7BA0A772D2440 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		41079166A55C8A18A6CCB1BB /* Pods_SrPago_Ecommerce_Example_SrPago_Ecommerce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SrPago_Ecommerce_Example_SrPago_Ecommerce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA90E39DEA7BA0A772D2440 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SrPago-Ecommerce_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SrPago-Ecommerce_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6246A18C9674605CFE22D705 /* Pods_SrPago_Ecommerce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SrPago_Ecommerce_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A54D99A026A3E212911FC82 /* Pods-SrPago-Ecommerce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Example.release.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Example/Pods-SrPago-Ecommerce_Example.release.xcconfig"; sourceTree = "<group>"; };
-		737BE3554920F91BC4928C22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B73DD14BEE2C7836B79D3FEC /* SrPago-Ecommerce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "SrPago-Ecommerce.podspec"; path = "../SrPago-Ecommerce.podspec"; sourceTree = "<group>"; };
+		737BE3554920F91BC4928C22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B73DD14BEE2C7836B79D3FEC /* SrPago-Ecommerce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SrPago-Ecommerce.podspec"; path = "../SrPago-Ecommerce.podspec"; sourceTree = "<group>"; };
 		DFEDE08547402D79D21EC380 /* Pods-SrPago-Ecommerce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3DE081795808D0669295C75 /* Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.release.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7541B79B49E9C44B3DACACB /* Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323A2DF6C7A6DBA1C447CB9D /* Pods_SrPago_Ecommerce_Example.framework in Frameworks */,
+				6B72B2FD25648A9D00BB9057 /* Pods_SrPago_Ecommerce_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D102C83CBC94ED04CB789AD /* Pods_SrPago_Ecommerce_Tests.framework in Frameworks */,
+				513A0968FDC3238669D71261 /* Pods_SrPago_Ecommerce_Example_SrPago_Ecommerce_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +78,9 @@
 				6A54D99A026A3E212911FC82 /* Pods-SrPago-Ecommerce_Example.release.xcconfig */,
 				DFEDE08547402D79D21EC380 /* Pods-SrPago-Ecommerce_Tests.debug.xcconfig */,
 				070816E1AB84C71B0C2F0C97 /* Pods-SrPago-Ecommerce_Tests.release.xcconfig */,
+				E7541B79B49E9C44B3DACACB /* Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.debug.xcconfig */,
+				E3DE081795808D0669295C75 /* Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				6246A18C9674605CFE22D705 /* Pods_SrPago_Ecommerce_Example.framework */,
-				08ACAEF2A7A1F12AA61C2D4D /* Pods_SrPago_Ecommerce_Tests.framework */,
+				41079166A55C8A18A6CCB1BB /* Pods_SrPago_Ecommerce_Example_SrPago_Ecommerce_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				02398C540577DCF44D4C6CEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +217,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5DPE4X2TAL;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,6 +268,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02398C540577DCF44D4C6CEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SrPago-Ecommerce/SrPago_Ecommerce.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SrPago_Ecommerce.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		11E1D392F0F0E573A56B9744 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,7 +341,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SrPago-Ecommerce_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -478,7 +502,10 @@
 			baseConfigurationReference = 0ADD664B0918D702EC571C8E /* Pods-SrPago-Ecommerce_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DPE4X2TAL;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "SrPago-Ecommerce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +520,10 @@
 			baseConfigurationReference = 6A54D99A026A3E212911FC82 /* Pods-SrPago-Ecommerce_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DPE4X2TAL;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "SrPago-Ecommerce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -505,7 +535,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEDE08547402D79D21EC380 /* Pods-SrPago-Ecommerce_Tests.debug.xcconfig */;
+			baseConfigurationReference = E7541B79B49E9C44B3DACACB /* Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +557,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 070816E1AB84C71B0C2F0C97 /* Pods-SrPago-Ecommerce_Tests.release.xcconfig */;
+			baseConfigurationReference = E3DE081795808D0669295C75 /* Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

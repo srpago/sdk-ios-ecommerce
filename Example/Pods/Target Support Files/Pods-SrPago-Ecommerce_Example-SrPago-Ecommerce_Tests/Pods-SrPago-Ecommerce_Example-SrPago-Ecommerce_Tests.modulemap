@@ -1,0 +1,6 @@
+framework module Pods_SrPago_Ecommerce_Example_SrPago_Ecommerce_Tests {
+  umbrella header "Pods-SrPago-Ecommerce_Example-SrPago-Ecommerce_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

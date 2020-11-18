@@ -1,0 +1,16 @@
+PODS:
+  - SrPago-Ecommerce (1.0.0)
+
+DEPENDENCIES:
+  - SrPago-Ecommerce (from `../`)
+
+EXTERNAL SOURCES:
+  SrPago-Ecommerce:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SrPago-Ecommerce: 13d1a205e990f98d40c54e72592a22ec3a66137b
+
+PODFILE CHECKSUM: 7f0f7856f8476249a5293515cbc8e65011a66c14
+
+COCOAPODS: 1.9.3

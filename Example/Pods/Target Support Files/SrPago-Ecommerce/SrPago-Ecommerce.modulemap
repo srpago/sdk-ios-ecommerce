@@ -1,0 +1,6 @@
+framework module SrPago_Ecommerce {
+  umbrella header "SrPago-Ecommerce-umbrella.h"
+
+  export *
+  module * { export * }
+}

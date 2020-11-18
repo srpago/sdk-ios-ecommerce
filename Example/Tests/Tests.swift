@@ -1,5 +1,5 @@
 import XCTest
-import SrPago-Ecommerce
+//import SrPago-Ecommerce
 
 class Tests: XCTestCase {
     

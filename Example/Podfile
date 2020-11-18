@@ -1,10 +1,11 @@
 use_frameworks!
 
 target 'SrPago-Ecommerce_Example' do
+  use_frameworks!
   pod 'SrPago-Ecommerce', :path => '../'
 
   target 'SrPago-Ecommerce_Tests' do
-    inherit! :search_paths
+    #inherit! :search_paths
 
     
   end
