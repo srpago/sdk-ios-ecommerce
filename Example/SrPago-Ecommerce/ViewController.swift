@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import SrPago_Ecommerce
+import SrPago
+//import SrPago
 
 class ViewController: UIViewController {
 

@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SrPago-Ecommerce
 
-Copyright (c) 2020 fbustosr@srpago.com
+Copyright (c) 2020 rhernandez@srpago.com <fbustosr@srpago.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
