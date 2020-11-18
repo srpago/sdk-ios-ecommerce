@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SrPago-Ecommerce'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Framework to get a SrPago token from any card.'
 
 # This description is used to generate tags and improve search results.
@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
   s.name             = "SrPago-Ecommerce"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A SrPago SDK to ecommerce"
   s.homepage         = 'https://github.com/LFBR-SrPago/SrPago-ecommerce'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.homepage         = 'https://senorpago.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rhernandez@srpago.com' => 'fbustosr@srpago.com' }
+  s.author           = { 'Fernando Bustos' => 'fbustosr@srpago.com' }
   s.source           = { :git => 'https://github.com/LFBR-SrPago/SrPago-ecommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,7 +37,6 @@ TODO: Add long description of the pod here.
   s.swift_versions = '4.2'
   s.vendored_frameworks = 'SrPago-Ecommerce/Framework/SrPago.framework'
   s.frameworks = 'SrPago'
-  #s.frameworks = 'SrPago'
   
   # s.resource_bundles = {
   #   'SrPago-Ecommerce' => ['SrPago-Ecommerce/Assets/*.png']
