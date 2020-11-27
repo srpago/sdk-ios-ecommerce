@@ -1,5 +1,5 @@
 PODS:
-  - SrPago-Ecommerce (1.0.0)
+  - SrPago-Ecommerce (1.0.3)
 
 DEPENDENCIES:
   - SrPago-Ecommerce (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SrPago-Ecommerce: 80666fe82bdf828db969452ba1e94451db5280a8
+  SrPago-Ecommerce: 7d64a69bb4faf654c8e535749b5f80030c87db2d
 
-PODFILE CHECKSUM: 7f0f7856f8476249a5293515cbc8e65011a66c14
+PODFILE CHECKSUM: 474d6c6c1e118b151823017e1360affc27628a3f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
