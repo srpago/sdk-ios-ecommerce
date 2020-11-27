@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SrPago-Ecommerce'
-  s.version          = '1.0.3'
+  s.version          = '1.1.0'
   s.summary          = 'Framework to get a SrPago token from any card.'
 
 # This description is used to generate tags and improve search results.
