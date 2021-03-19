@@ -31,7 +31,8 @@
 /**
 Returns Singleton of SPTokenService Class
 */
-+ (id)sharedInstance;
- 
++ (SrPago *)sharedInstance;
+
+- (instancetype)init NS_UNAVAILABLE;
 
 @end

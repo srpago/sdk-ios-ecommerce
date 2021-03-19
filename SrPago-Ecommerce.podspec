@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SrPago-Ecommerce'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Framework to get a SrPago token from any card.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '4.2'
   s.vendored_frameworks = 'SrPago-Ecommerce/Framework/SrPago.framework'
   s.frameworks = 'SrPago'
-  
+
   # s.resource_bundles = {
   #   'SrPago-Ecommerce' => ['SrPago-Ecommerce/Assets/*.png']
   # }

@@ -45,7 +45,7 @@ import SrPago
 
 ```
 
-Create a new instance of SrPago class and setup this initialization with your current key
+Create a new instance of SrPago like singleton class and setup this initialization with your current key
 
 ```swift
 
