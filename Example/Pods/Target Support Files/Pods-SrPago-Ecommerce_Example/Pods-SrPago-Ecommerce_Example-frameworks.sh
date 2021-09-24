@@ -175,10 +175,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../SrPago-Ecommerce/Framework/SrPago.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPago/SrPago.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../SrPago-Ecommerce/Framework/SrPago.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SrPago/SrPago.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

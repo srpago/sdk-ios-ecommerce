@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SrPago-Ecommerce'
-  s.version          = '1.1.1'
+  s.version          = '1.2.1'
   s.summary          = 'Framework to get a SrPago token from any card.'
 
 # This description is used to generate tags and improve search results.
@@ -24,22 +24,23 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.homepage         = 'https://senorpago.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Fernando Bustos' => 'fbustosr@srpago.com' }
+  s.author           = {
+    'Fernando Bustos' => 'fbustosr@srpago.com',
+    'Genaro Arvizu' => 'lgarvizuv@srpago.com'
+  }
   s.source           = { :git => 'https://github.com/LFBR-SrPago/SrPago-ecommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   #s.source_files = 'SrPago-Ecommerce/Classes/**/*'
   s.swift_versions = '4.2'
-  s.vendored_frameworks = 'SrPago-Ecommerce/Framework/SrPago.framework'
+  s.vendored_frameworks = 'SrPago-Ecommerce/Framework/SrPago.xcframework'
   s.frameworks = 'SrPago'
 
   # s.resource_bundles = {
   #   'SrPago-Ecommerce' => ['SrPago-Ecommerce/Assets/*.png']
   # }
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
