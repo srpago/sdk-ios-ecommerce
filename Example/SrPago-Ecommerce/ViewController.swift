@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     }
     
     func setupSrPago(){
-        srPago = SrPago.sharedInstance()
+        srPago = SrPago.sharedInstance() as! SrPago
         srPago.publishableKey = "pk_pPieieldkierllllE"
         srPago.liveMode = false
     }
